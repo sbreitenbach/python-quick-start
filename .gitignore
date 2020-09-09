@@ -2,6 +2,7 @@
 .vscode/
 log.log
 tryStuff.py
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
