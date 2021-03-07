@@ -2,7 +2,7 @@
 ## Template for Python Repos with the following:
 
 ### main.py script
-1. Has logging setup
+1. Has logging and config file setup
 2. Script will print a simple hello world
 
 ### Test of main.py
@@ -13,3 +13,4 @@
 2. License
 3, Codeowners
 4. Gitignore
+5. Requirements 
