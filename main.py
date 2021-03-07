@@ -1,3 +1,4 @@
+import json
 import logging
 
 ##Begin Config##
@@ -12,6 +13,12 @@ def returns_true():
     return True
 
 if __name__ == '__main__':
+    with open('publicConfig.json') as json_file:
+        data = json.load(json_file)
+        my_setting_agent = data["settings"]["1"]
+
+
     print("Hello World!")
     print(returns_true())
+    print(my_setting_agent)
     logging.info("Hello World!")
