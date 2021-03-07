@@ -11,6 +11,6 @@
 ### Misc
 1. Readme
 2. License
-3, Codeowners
+3. Codeowners
 4. Gitignore
 5. Requirements 
